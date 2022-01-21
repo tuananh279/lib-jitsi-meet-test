@@ -38,14 +38,14 @@ const AVAILABLE_DEVICES_POLL_INTERVAL_TIME = 3000; // ms
 const DEFAULT_CONSTRAINTS = {
     video: {
         height: {
-            ideal: 720,
-            max: 720,
-            min: 180
+            ideal: 360,
+            max: 360,
+            min: 90
         },
         width: {
-            ideal: 1280,
-            max: 1280,
-            min: 320
+            ideal: 640,
+            max: 640,
+            min: 160
         }
     }
 };
